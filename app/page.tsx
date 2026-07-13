@@ -9,7 +9,8 @@ export default function Home() {
       paddingBottom: '20px',
       position: 'relative',
       // এখানে ব্যাকগ্রাউন্ড ইমেজটি সরাসরি সেট করা হলো
-      backgroundImage: 'url("/15423_3.jpg")', 
+      backgroundImage: 'url("/Paharpur-buddhist-vihara.jpg")',
+
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundAttachment: 'fixed'
