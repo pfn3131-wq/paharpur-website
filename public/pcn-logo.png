@@ -1,1 +1,13 @@
 
+<img 
+  src="/pcn-logo.png" 
+  alt="Paharpur Logo" 
+  style={{ 
+    width: '80px', 
+    height: '80px', 
+    marginBottom: '10px', 
+    borderRadius: '50%', 
+    backgroundColor: 'white',
+    objectFit: 'cover' 
+  }} 
+/>
