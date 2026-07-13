@@ -8,7 +8,8 @@ export default function Home() {
       minHeight: '100vh', 
       paddingBottom: '20px',
       position: 'relative',
-      backgroundImage: 'url("/Paharpur-buddhist-vihara.jpg")',
+      backgroundImage: 'url("/paharpur-buddhist-vihara.jpg")',
+
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundAttachment: 'fixed'
