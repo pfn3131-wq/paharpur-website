@@ -5,26 +5,25 @@ export default function Home() {
     <div style={{ 
       fontFamily: 'Arial, sans-serif', 
       margin: '0', 
-      backgroundColor: '#f4f7f6', 
-      color: '#333', 
       minHeight: '100vh', 
       paddingBottom: '20px',
-      position: 'relative' // ব্যাকগ্রাউন্ড পজিশনের জন্য এটি জরুরি
+      position: 'relative',
+      // এখানে ব্যাকগ্রাউন্ড ইমেজটি সরাসরি সেট করা হলো
+      backgroundImage: 'url("/15423_3.jpg")', 
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed'
     }}>
       
-      {/* ব্যাকগ্রাউন্ড জাপসা ইমেজ (পাহাড়পুর) */}
+      {/* জাপসা করার জন্য ওভারলে */}
       <div style={{
         position: 'absolute',
         top: 0,
         left: 0,
         width: '100%',
         height: '100%',
-        backgroundImage: 'url("/15423_3.jpg")', // আপনার ছবির ফাইল নাম নিশ্চিত করুন
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        opacity: 0.2, // এখান থেকে জাপসা ভাব কমাতে বা বাড়াতে পারবেন
-        zIndex: 0,
-        pointerEvents: 'none' // যাতে এটি ক্লিক করা না যায়
+        backgroundColor: 'rgba(244, 247, 246, 0.85)', // এখানে কালার ও জাপসা ভাব নিয়ন্ত্রণ করা হয়েছে
+        zIndex: 0
       }} />
 
       {/* মেইন কন্টেন্ট */}
@@ -36,7 +35,7 @@ export default function Home() {
         </header>
 
         <main style={{ maxWidth: '600px', margin: '20px auto', padding: '0 15px' }}>
-          <section style={{ backgroundColor: 'rgba(255, 255, 255, 0.9)', padding: '20px', borderRadius: '10px', boxShadow: '0 2px 5px rgba(0,0,0,0.1)', marginBottom: '20px' }}>
+          <section style={{ backgroundColor: 'white', padding: '20px', borderRadius: '10px', boxShadow: '0 2px 5px rgba(0,0,0,0.1)', marginBottom: '20px' }}>
             <h2 style={{ color: '#004a99', borderLeft: '4px solid #004a99', paddingLeft: '10px', fontSize: '20px' }}>ইন্টারনেট প্যাকেজ</h2>
             <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '15px', fontSize: '14px' }}>
               <thead>
@@ -53,14 +52,14 @@ export default function Home() {
             </table>
           </section>
 
-          <section style={{ backgroundColor: 'rgba(255, 255, 255, 0.9)', padding: '20px', borderRadius: '10px', boxShadow: '0 2px 5px rgba(0,0,0,0.1)', marginBottom: '20px', textAlign: 'center' }}>
+          <section style={{ backgroundColor: 'white', padding: '20px', borderRadius: '10px', boxShadow: '0 2px 5px rgba(0,0,0,0.1)', marginBottom: '20px', textAlign: 'center' }}>
             <h2 style={{ color: '#004a99', textAlign: 'left', fontSize: '20px' }}>LPG গ্যাস অর্ডার</h2>
             <img src="/lpg.png" alt="LPG Cylinder" style={{ width: '100%', maxWidth: '250px', margin: '15px 0', borderRadius: '8px' }} />
             <p style={{ fontSize: '14px', marginBottom: '20px' }}>দ্রুত ডেলিভারির জন্য নিচে ক্লিক করুন:</p>
             <a href="https://wa.me/8801717852946?text=হ্যালো, আমি এলপিজি গ্যাস সিলিন্ডার অর্ডার করতে চাই।" target="_blank" rel="noopener noreferrer" style={{ display: 'block', padding: '15px', backgroundColor: '#25D366', color: 'white', textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold', fontSize: '16px' }}>WhatsApp-এ অর্ডার করুন</a>
           </section>
 
-          <section style={{ backgroundColor: 'rgba(255, 255, 255, 0.9)', padding: '20px', borderRadius: '10px', boxShadow: '0 2px 5px rgba(0,0,0,0.1)' }}>
+          <section style={{ backgroundColor: 'white', padding: '20px', borderRadius: '10px', boxShadow: '0 2px 5px rgba(0,0,0,0.1)' }}>
             <h2 style={{ color: '#004a99', fontSize: '20px' }}>যোগাযোগ</h2>
             <p style={{ fontSize: '14px' }}>ঠিকানা: পাহাড়পুর<br />হেল্পলাইন: <strong>০১৭১৭৮৫২৯৪৬, ০১৩৩৬৫৭০৯৩৬</strong></p>
           </section>
