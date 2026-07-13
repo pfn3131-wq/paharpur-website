@@ -1,0 +1,14 @@
+<img 
+  src="/lpg.png" 
+  alt="LPG Cylinder" 
+  style={{ 
+    width: '100%', 
+    maxWidth: '250px', 
+    height: 'auto', 
+    margin: '15px 0', 
+    borderRadius: '8px',
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto'
+  }} 
+/>
