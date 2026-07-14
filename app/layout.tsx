@@ -3,8 +3,9 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Paharpur Fiber Net & LPG Gas',
-  description: 'পাহাড়পুর বাজার মন্টু মেম্বার এর বাসা ২য় তলা,
+  description: "পাহাড়পুর বাজার মন্টু মেম্বার এর বাসা ২য় তলা",
 };
+
 
 export default function RootLayout({
   children,
